@@ -1,0 +1,104 @@
+{
+  "title": "Privacy Policy",
+  "version": "1.0",
+  "effectiveDate": "13 June 2026",
+  "intro": "This Privacy Policy explains how CalorieKitchen (\"we\", \"us\", \"our\") collects, uses, and protects your personal data when you use the CalorieKitchen mobile application (\"App\"). We are committed to protecting your privacy and complying with UK GDPR and the Data Protection Act 2018.",
+  "sections": [
+    {
+      "title": "1. Data Controller",
+      "blocks": [
+        { "type": "para", "text": "The data controller for your personal data is the individual developer of CalorieKitchen. You can contact us with any data-related query at:" },
+        { "type": "para", "text": "caloriekitchen@gmail.com", "bold": true }
+      ]
+    },
+    {
+      "title": "2. What Data We Collect",
+      "blocks": [
+        { "type": "para", "text": "The data we collect depends on how you use the App." },
+        { "type": "para", "text": "If you sign in with Google:", "bold": true },
+        { "type": "bullet", "title": "Account data", "text": "Your Google email address and display name, as provided by Google Sign-In." },
+        { "type": "bullet", "title": "Profile data", "text": "Age, biological sex, height, weight, activity level, dietary goal, and preferred units — entered during onboarding or updated in Settings." },
+        { "type": "bullet", "title": "Diary data", "text": "Food entries (name, quantity, macros, calories), meal type, and date. Exercise entries and water intake logs." },
+        { "type": "bullet", "title": "Weight logs", "text": "Body-weight entries you manually log or that are imported from a connected health app." },
+        { "type": "bullet", "title": "Meal templates & fridge", "text": "Custom meal templates and fridge/shopping lists you create." },
+        { "type": "bullet", "title": "Custom foods", "text": "Any foods you add that are not in our database." },
+        { "type": "para", "text": "If you connect Health Connect (Android):", "bold": true },
+        { "type": "bullet", "text": "Steps, active calories burned, exercise sessions, and body weight from your Android health store — imported only when you grant permission and only to populate your diary." },
+        { "type": "para", "text": "If you use Guest Mode:", "bold": true },
+        { "type": "bullet", "text": "All data above is stored only on your device. We do not receive or access it. No data is transmitted to our servers in Guest Mode." }
+      ]
+    },
+    {
+      "title": "3. Why We Collect Your Data (Lawful Basis)",
+      "blocks": [
+        { "type": "bullet", "title": "Contractual necessity", "text": "To provide the core features of the App — calculating your calorie targets, syncing your diary across devices, and restoring your data on a new device." },
+        { "type": "bullet", "title": "Legitimate interests", "text": "To maintain app stability, debug issues, and improve features. We do not build advertising profiles or sell your data." },
+        { "type": "bullet", "title": "Consent", "text": "To import data from Health Connect. You can revoke this permission at any time through Android Settings → Apps → CalorieKitchen → Permissions, or via the Integrations section in the App." }
+      ]
+    },
+    {
+      "title": "4. How We Store Your Data",
+      "blocks": [
+        { "type": "para", "text": "Data for signed-in users is stored using Supabase, a cloud database service. Supabase servers may be located outside the UK/EEA. Where data is transferred outside the UK, we rely on appropriate safeguards (including Standard Contractual Clauses) to ensure your data remains protected to UK GDPR standards." },
+        { "type": "para", "text": "We retain your cloud account data for as long as your account is active. If you request account deletion, your data will be permanently removed within 30 days." },
+        { "type": "para", "text": "If you have not signed in or synced any data for 12 consecutive months, your account and its associated cloud data will be automatically and permanently deleted, in line with data minimisation principles under UK GDPR. This applies only to cloud accounts (signed in via Google) — data kept locally on your device as a guest is unaffected and stays under your control until you delete the App." }
+      ]
+    },
+    {
+      "title": "5. Who We Share Your Data With",
+      "blocks": [
+        { "type": "para", "text": "We do not sell your personal data to third parties. We share data only with:" },
+        { "type": "bullet", "title": "Supabase", "text": "Our cloud storage provider, acting as a data processor on our behalf." },
+        { "type": "bullet", "title": "Google", "text": "For authentication via Google Sign-In. Google's use of your data is governed by Google's Privacy Policy." },
+        { "type": "bullet", "title": "Ad networks", "text": "The free version of the App may show ads from third-party advertising networks (e.g. Google AdMob). These networks may collect device identifiers for ad personalisation. You can opt out via your device's ad settings. Subscribers with an active ad-free plan are not shown third-party ads." },
+        { "type": "bullet", "title": "Legal requirement", "text": "If required to do so by law or a court order." }
+      ]
+    },
+    {
+      "title": "6. Cookies & Local Storage",
+      "blocks": [
+        { "type": "para", "text": "The App does not use browser cookies. It uses device-local storage (AsyncStorage and SQLite) to store your diary and profile data locally for offline access. This is necessary for the App to function." }
+      ]
+    },
+    {
+      "title": "7. Your Rights Under UK GDPR",
+      "blocks": [
+        { "type": "para", "text": "You have the following rights regarding your personal data:" },
+        { "type": "bullet", "title": "Right of access", "text": "Request a copy of the personal data we hold about you." },
+        { "type": "bullet", "title": "Right to rectification", "text": "Ask us to correct inaccurate data." },
+        { "type": "bullet", "title": "Right to erasure", "text": "Ask us to delete your account and all associated data. You can also request this via Settings → Delete account & data in the App." },
+        { "type": "bullet", "title": "Right to portability", "text": "Request your data in a machine-readable format." },
+        { "type": "bullet", "title": "Right to restriction", "text": "Ask us to restrict processing of your data in certain circumstances." },
+        { "type": "bullet", "title": "Right to object", "text": "Object to processing based on legitimate interests." },
+        { "type": "para", "text": "To exercise any of these rights, contact us at caloriekitchen@gmail.com. We will respond within 30 days." }
+      ]
+    },
+    {
+      "title": "8. Children's Privacy",
+      "blocks": [
+        { "type": "para", "text": "The App is not directed at children under 13. We do not knowingly collect personal data from children under 13. If you believe a child has provided us with personal data, please contact us and we will delete it promptly." }
+      ]
+    },
+    {
+      "title": "9. Changes to This Policy",
+      "blocks": [
+        { "type": "para", "text": "We may update this Privacy Policy from time to time. When we do, we will update the effective date and notify you in-app. Your continued use of the App after the updated policy takes effect constitutes acceptance." }
+      ]
+    },
+    {
+      "title": "10. Complaints",
+      "blocks": [
+        { "type": "para", "text": "If you have concerns about how we handle your data, please contact us first at caloriekitchen@gmail.com. You also have the right to lodge a complaint with the UK Information Commissioner's Office (ICO):" },
+        { "type": "link", "text": "ico.org.uk/make-a-complaint", "url": "https://ico.org.uk/make-a-complaint/" },
+        { "type": "para", "text": "ICO helpline: 0303 123 1113" }
+      ]
+    },
+    {
+      "title": "11. Contact",
+      "blocks": [
+        { "type": "para", "text": "For any privacy questions or data requests, contact us at:" },
+        { "type": "mailto", "text": "caloriekitchen@gmail.com", "email": "caloriekitchen@gmail.com" }
+      ]
+    }
+  ]
+}

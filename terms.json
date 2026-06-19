@@ -1,0 +1,90 @@
+{
+  "title": "Terms & Conditions",
+  "version": "1.0",
+  "effectiveDate": "13 June 2026",
+  "intro": "Please read these Terms & Conditions (\"Terms\") carefully before using the CalorieKitchen mobile application (\"App\"). By creating an account or continuing as a guest you agree to be bound by these Terms. If you do not agree, do not use the App.",
+  "sections": [
+    {
+      "title": "1. About the App",
+      "blocks": [
+        { "type": "para", "text": "CalorieKitchen is a personal nutrition and calorie-tracking tool operated by an individual developer (\"we\", \"us\", \"our\"). The App helps users log meals, track macros, set calorie goals, and monitor progress. It is not a medical product and is not intended to diagnose, treat, cure, or prevent any disease or health condition." }
+      ]
+    },
+    {
+      "title": "2. Eligibility",
+      "blocks": [
+        { "type": "para", "text": "You must be at least 13 years old to use CalorieKitchen. By using the App you confirm that you meet this requirement. If you are under 18, you should have the consent of a parent or legal guardian." }
+      ]
+    },
+    {
+      "title": "3. Guest Mode",
+      "blocks": [
+        { "type": "para", "text": "You may use the App without creating an account (\"Guest Mode\"). When using Guest Mode:" },
+        { "type": "bullet", "text": "All data is stored only on your device. We do not receive or store it on our servers." },
+        { "type": "bullet", "text": "If you uninstall the App or clear its data, your guest data will be permanently lost. We cannot recover it." },
+        { "type": "bullet", "text": "You can link a Google account at any time to back up your data to the cloud." }
+      ]
+    },
+    {
+      "title": "4. Health & Nutrition Disclaimer",
+      "blocks": [
+        { "type": "para", "text": "CalorieKitchen is a general-purpose tracking tool and is NOT a substitute for professional medical, dietetic, or nutritional advice. Always consult a qualified healthcare professional before making significant changes to your diet or exercise routine, especially if you have a medical condition or are pregnant." },
+        { "type": "para", "text": "Nutritional values displayed in the App are sourced from third-party databases and user-submitted data. We do not guarantee the accuracy, completeness, or suitability of any nutritional information. Use it as a guide only." }
+      ]
+    },
+    {
+      "title": "5. User Responsibilities",
+      "blocks": [
+        { "type": "para", "text": "You agree to:" },
+        { "type": "bullet", "text": "Provide accurate information in your profile so your calorie targets are calculated correctly." },
+        { "type": "bullet", "text": "Not use the App for any unlawful purpose or in a way that could harm others." },
+        { "type": "bullet", "text": "Keep your Google account credentials secure. You are responsible for all activity under your account." },
+        { "type": "bullet", "text": "Not reverse-engineer, decompile, or tamper with the App." }
+      ]
+    },
+    {
+      "title": "6. Intellectual Property",
+      "blocks": [
+        { "type": "para", "text": "All content, design, code, and materials in the App are the property of the developer and are protected by applicable intellectual property laws. You are granted a limited, non-exclusive, non-transferable licence to use the App for your personal, non-commercial use only." }
+      ]
+    },
+    {
+      "title": "7. Advertisements & Premium",
+      "blocks": [
+        { "type": "para", "text": "The free version of CalorieKitchen may display advertisements from third-party ad networks. A paid subscription removes advertisements and may unlock additional features. Subscription terms are presented at the point of purchase through the Google Play Store and are subject to Google Play's billing policies." }
+      ]
+    },
+    {
+      "title": "8. Limitation of Liability",
+      "blocks": [
+        { "type": "para", "text": "To the fullest extent permitted by applicable law, we shall not be liable for any indirect, incidental, special, consequential, or punitive damages arising from your use of, or inability to use, the App — including but not limited to loss of data, health outcomes based on nutritional information, or loss of guest-mode data." },
+        { "type": "para", "text": "Our total liability to you for any claim arising out of or relating to these Terms or the App shall not exceed the amount you paid us in the 12 months preceding the claim." }
+      ]
+    },
+    {
+      "title": "9. Third-Party Services",
+      "blocks": [
+        { "type": "para", "text": "The App uses third-party services including Google Sign-In and Supabase (cloud storage). Your use of these services is subject to their own terms and privacy policies. We are not responsible for the practices of these third parties." }
+      ]
+    },
+    {
+      "title": "10. Changes to These Terms",
+      "blocks": [
+        { "type": "para", "text": "We may update these Terms from time to time. When we do, we will update the effective date above and prompt you to review and re-accept the updated Terms within the App. Continued use after acceptance of the updated Terms constitutes agreement to the changes." }
+      ]
+    },
+    {
+      "title": "11. Governing Law",
+      "blocks": [
+        { "type": "para", "text": "These Terms are governed by and construed in accordance with the laws of England and Wales. Any disputes arising out of or in connection with these Terms shall be subject to the exclusive jurisdiction of the courts of England and Wales." }
+      ]
+    },
+    {
+      "title": "12. Contact",
+      "blocks": [
+        { "type": "para", "text": "If you have any questions about these Terms, please contact us at:" },
+        { "type": "para", "text": "caloriekitchen@gmail.com", "bold": true }
+      ]
+    }
+  ]
+}
