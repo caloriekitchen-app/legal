@@ -1,7 +1,7 @@
 {
   "title": "Privacy Policy",
-  "version": "1.0",
-  "effectiveDate": "13 June 2026",
+  "version": "1.1",
+  "effectiveDate": "20 June 2026",
   "intro": "This Privacy Policy explains how CalorieKitchen (\"we\", \"us\", \"our\") collects, uses, and protects your personal data when you use the CalorieKitchen mobile application (\"App\"). We are committed to protecting your privacy and complying with UK GDPR and the Data Protection Act 2018.",
   "sections": [
     {
@@ -25,7 +25,10 @@
         { "type": "para", "text": "If you connect Health Connect (Android):", "bold": true },
         { "type": "bullet", "text": "Steps, active calories burned, exercise sessions, and body weight from your Android health store — imported only when you grant permission and only to populate your diary." },
         { "type": "para", "text": "If you use Guest Mode:", "bold": true },
-        { "type": "bullet", "text": "All data above is stored only on your device. We do not receive or access it. No data is transmitted to our servers in Guest Mode." }
+        { "type": "bullet", "text": "All data above is stored only on your device. We do not receive or access it. No data is transmitted to our servers in Guest Mode." },
+        { "type": "para", "text": "If you use an AI premium feature (Bronze, Silver, or Gold subscription):", "bold": true },
+        { "type": "bullet", "title": "Meal/fridge photos", "text": "Processed transiently by Google's Gemini API to identify food or ingredients, then discarded — we do not store these photos." },
+        { "type": "bullet", "title": "AI insight context", "text": "A compact summary of your own data (recent food names, daily calorie/protein totals, dietary preference, fridge contents) — never your full diary history — sent to Google's Gemini API to generate a suggestion or short observation." }
       ]
     },
     {
@@ -33,7 +36,8 @@
       "blocks": [
         { "type": "bullet", "title": "Contractual necessity", "text": "To provide the core features of the App — calculating your calorie targets, syncing your diary across devices, and restoring your data on a new device." },
         { "type": "bullet", "title": "Legitimate interests", "text": "To maintain app stability, debug issues, and improve features. We do not build advertising profiles or sell your data." },
-        { "type": "bullet", "title": "Consent", "text": "To import data from Health Connect. You can revoke this permission at any time through Android Settings → Apps → CalorieKitchen → Permissions, or via the Integrations section in the App." }
+        { "type": "bullet", "title": "Consent", "text": "To import data from Health Connect. You can revoke this permission at any time through Android Settings → Apps → CalorieKitchen → Permissions, or via the Integrations section in the App." },
+        { "type": "bullet", "title": "Consent (AI features)", "text": "AI photo scanning and AI data insights only activate when you purchase the relevant subscription tier and actively use them (taking a photo, tapping a suggestion button) — they are opt-in by nature, and no free-form chat input is ever sent." }
       ]
     },
     {
@@ -49,7 +53,8 @@
       "blocks": [
         { "type": "para", "text": "We do not sell your personal data to third parties. We share data only with:" },
         { "type": "bullet", "title": "Supabase", "text": "Our cloud storage provider, acting as a data processor on our behalf." },
-        { "type": "bullet", "title": "Google", "text": "For authentication via Google Sign-In. Google's use of your data is governed by Google's Privacy Policy." },
+        { "type": "bullet", "title": "Google", "text": "For authentication via Google Sign-In, and — if you use an AI premium feature — Google's Gemini API to process meal/fridge photos and AI insight context as described in section 2. Google's use of your data is governed by Google's Privacy Policy." },
+        { "type": "bullet", "title": "USDA FoodData Central", "text": "If you use AI photo meal scanning (Silver/Gold), identified food names and an estimated portion are sent to this US government public nutrition database to look up calorie/macro values. No personal data is sent — only a food name and portion estimate." },
         { "type": "bullet", "title": "Ad networks", "text": "The free version of the App may show ads from third-party advertising networks (e.g. Google AdMob). These networks may collect device identifiers for ad personalisation. You can opt out via your device's ad settings. Subscribers with an active ad-free plan are not shown third-party ads." },
         { "type": "bullet", "title": "Legal requirement", "text": "If required to do so by law or a court order." }
       ]
