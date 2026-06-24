@@ -1,7 +1,7 @@
 {
   "title": "Terms & Conditions",
-  "version": "1.1",
-  "effectiveDate": "20 June 2026",
+  "version": "1.2",
+  "effectiveDate": "24 June 2026",
   "intro": "Please read these Terms & Conditions (\"Terms\") carefully before using the CalorieKitchen mobile application (\"App\"). By creating an account or continuing as a guest you agree to be bound by these Terms. If you do not agree, do not use the App.",
   "sections": [
     {
@@ -13,7 +13,7 @@
     {
       "title": "2. Eligibility",
       "blocks": [
-        { "type": "para", "text": "You must be at least 13 years old to use CalorieKitchen. By using the App you confirm that you meet this requirement. If you are under 18, you should have the consent of a parent or legal guardian." }
+        { "type": "para", "text": "You must be at least 16 years old to use CalorieKitchen. By using the App you confirm that you meet this requirement. If you are under 18, you should have the consent of a parent or legal guardian." }
       ]
     },
     {
