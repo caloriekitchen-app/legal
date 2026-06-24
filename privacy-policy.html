@@ -45,12 +45,18 @@
   <ul>
     <li>All data above is stored only on your device. We do not receive or access it. No data is transmitted to our servers in Guest Mode.</li>
   </ul>
+  <p><b>If you use an AI premium feature (Bronze, Silver, or Gold subscription):</b></p>
+  <ul>
+    <li><b>Meal/fridge photos:</b> Processed transiently by Google's Gemini API to identify food or ingredients, then discarded — we do not store these photos.</li>
+    <li><b>AI insight context:</b> A compact summary of your own data (recent food names, daily calorie/protein totals, dietary preference, fridge contents) — never your full diary history — sent to Google's Gemini API to generate a suggestion or short observation.</li>
+  </ul>
 
   <h2>3. Why We Collect Your Data (Lawful Basis)</h2>
   <ul>
     <li><b>Contractual necessity:</b> To provide the core features of the App — calculating your calorie targets, syncing your diary across devices, and restoring your data on a new device.</li>
     <li><b>Legitimate interests:</b> To maintain app stability, debug issues, and improve features. We do not build advertising profiles or sell your data.</li>
     <li><b>Consent:</b> To import data from Health Connect. You can revoke this permission at any time through Android Settings → Apps → CalorieKitchen → Permissions, or via the Integrations section in the App.</li>
+    <li><b>Consent (AI features):</b> AI photo scanning and AI data insights only activate when you purchase the relevant subscription tier and actively use them (taking a photo, tapping a suggestion button) — they are opt-in by nature, and no free-form chat input is ever sent.</li>
   </ul>
 
   <h2>4. How We Store Your Data</h2>
@@ -62,7 +68,8 @@
   <p>We do not sell your personal data to third parties. We share data only with:</p>
   <ul>
     <li><b>Supabase:</b> Our cloud storage provider, acting as a data processor on our behalf.</li>
-    <li><b>Google:</b> For authentication via Google Sign-In. Google's use of your data is governed by Google's Privacy Policy.</li>
+    <li><b>Google:</b> For authentication via Google Sign-In, and — if you use an AI premium feature — Google's Gemini API to process meal/fridge photos and AI insight context as described in section 2. Google's use of your data is governed by Google's Privacy Policy.</li>
+    <li><b>USDA FoodData Central:</b> If you use AI photo meal scanning (Silver/Gold), identified food names and an estimated portion are sent to this US government public nutrition database to look up calorie/macro values. No personal data is sent — only a food name and portion estimate.</li>
     <li><b>Ad networks:</b> The free version of the App may show ads from third-party advertising networks (e.g. Google AdMob). These networks may collect device identifiers for ad personalisation. You can opt out via your device's ad settings. Subscribers with an active ad-free plan are not shown third-party ads.</li>
     <li><b>Legal requirement:</b> If required to do so by law or a court order.</li>
   </ul>
