@@ -1,6 +1,6 @@
 {
   "title": "Terms & Conditions",
-  "version": "1.2",
+  "version": "1.3",
   "effectiveDate": "24 June 2026",
   "intro": "Please read these Terms & Conditions (\"Terms\") carefully before using the CalorieKitchen mobile application (\"App\"). By creating an account or continuing as a guest you agree to be bound by these Terms. If you do not agree, do not use the App.",
   "sections": [
@@ -75,23 +75,29 @@
     {
       "title": "10. Third-Party Services",
       "blocks": [
-        { "type": "para", "text": "The App uses third-party services including Google Sign-In, Supabase (cloud storage), Google's Gemini API, and the USDA FoodData Central public database (see section 8 for the AI features that use the latter two). Your use of these services is subject to their own terms and privacy policies. We are not responsible for the practices of these third parties." }
+        { "type": "para", "text": "The App uses third-party services including Google Sign-In, Supabase (cloud storage), RevenueCat (subscription management), Sentry (crash and error reporting), Google's Gemini API, and the USDA FoodData Central public database (see section 8 for the AI features that use the latter two). Your use of these services is subject to their own terms and privacy policies. We are not responsible for the practices of these third parties." }
       ]
     },
     {
-      "title": "11. Changes to These Terms",
+      "title": "11. Availability & Restricted Regions",
+      "blocks": [
+        { "type": "para", "text": "The App is intended for users in the United Kingdom and other regions where it is made available via the Google Play Store. We do not knowingly make the App available to users in countries subject to comprehensive U.S. trade sanctions (currently Cuba, Iran, and North Korea), and we may restrict availability in regions where local law (such as data localisation requirements) prevents us from offering the App in compliance with that law. We reserve the right to restrict or discontinue access to the App in any region at our discretion." }
+      ]
+    },
+    {
+      "title": "12. Changes to These Terms",
       "blocks": [
         { "type": "para", "text": "We may update these Terms from time to time. When we do, we will update the effective date above and prompt you to review and re-accept the updated Terms within the App. Continued use after acceptance of the updated Terms constitutes agreement to the changes." }
       ]
     },
     {
-      "title": "12. Governing Law",
+      "title": "13. Governing Law",
       "blocks": [
         { "type": "para", "text": "These Terms are governed by and construed in accordance with the laws of England and Wales. Any disputes arising out of or in connection with these Terms shall be subject to the exclusive jurisdiction of the courts of England and Wales." }
       ]
     },
     {
-      "title": "13. Contact",
+      "title": "14. Contact",
       "blocks": [
         { "type": "para", "text": "If you have any questions about these Terms, please contact us at:" },
         { "type": "para", "text": "caloriekitchen@gmail.com", "bold": true }
