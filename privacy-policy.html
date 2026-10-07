@@ -18,7 +18,7 @@
 </head>
 <body>
   <h1>Privacy Policy</h1>
-  <p class="effective-date">Effective date: 7 October 2026 (v1.4)</p>
+  <p class="effective-date">Effective date: 7 October 2026 (v1.5)</p>
 
   <p>This Privacy Policy explains how CalorieKitchen ("we", "us", "our") collects, uses, and protects your personal data when you use the CalorieKitchen mobile application ("App"). We are committed to protecting your privacy and complying with UK GDPR and the Data Protection Act 2018.</p>
 
@@ -47,40 +47,51 @@
   </ul>
   <p><b>If you use an AI premium feature (Bronze, Silver, or Gold subscription):</b></p>
   <ul>
-    <li><b>Meal/fridge photos:</b> Processed transiently by our third-party AI service provider to identify food or ingredients, then discarded — we do not store these photos.</li>
-    <li><b>AI insight context:</b> A compact summary of your own data (recent food names, daily calorie/protein totals, dietary preference, fridge contents) — never your full diary history — sent to our third-party AI service provider to generate a suggestion or short observation.</li>
+    <li><b>Meal/fridge photos:</b> When you request meal or fridge scanning, a resized photo is sent through our backend to Google Gemini to identify food or ingredients. CalorieKitchen does not persist the photo in its backend database. Google handles API inputs under its own Gemini API terms, which can include safety and abuse-monitoring retention; this is not a promise that every provider immediately deletes the photo.</li>
+    <li><b>AI insight context:</b> Recipe requests send fridge ingredient names, dietary preference, goal and recent food-name trends. For eligible subscribers, opening the Progress screen can automatically request an AI observation using aggregated calorie/protein, weight-trend, milestone and exercise/step statistics, including statistics derived from Health Connect imports. The full raw diary and weight history are not sent in that request. Local diary/fridge insight cards do not use a remote AI model.</li>
+    <li><b>Food-recognition feedback:</b> Meal scanning records recognised food labels, matching results, estimated portions and feedback/corrections in our food-intelligence backend. Initial scan observations use a pseudonym; correction observations do not add a person identifier. This is separate from storing a photo.</li>
+  </ul>
+  <p><b>Account, advertising and diagnostic information:</b></p>
+  <ul>
+    <li><b>Subscriptions:</b> You must sign in with Google before purchasing or restoring. RevenueCat receives the Supabase account UUID as the app user ID, plus store purchase and entitlement information. This is a pseudonymous account identifier, not an anonymous identity. Google Play handles the payment; CalorieKitchen does not receive your payment-card or bank-account details.</li>
+    <li><b>Device identifiers and diagnostics:</b> An Android device identifier and first-seen timestamp are stored in our backend to maintain the guest advertising grace period across reinstallations. AdMob and Sentry may also process identifiers, IP addresses and technical diagnostics. These transmissions can occur without cloud diary sync.</li>
   </ul>
 
   <h2>3. Why We Collect Your Data (Lawful Basis)</h2>
   <ul>
     <li><b>Contractual necessity:</b> To provide the core features of the App — calculating your calorie targets, syncing your diary across devices, and restoring your data on a new device.</li>
     <li><b>Legitimate interests:</b> To maintain app stability, debug issues, and improve features. We do not build advertising profiles or sell your data.</li>
-    <li><b>Consent:</b> To import data from Health Connect. You can revoke this permission at any time through Android Settings → Apps → CalorieKitchen → Permissions, or via the Integrations section in the App.</li>
-    <li><b>Consent (AI features):</b> AI photo scanning and AI data insights only activate when you purchase the relevant subscription tier and actively use them (taking a photo, tapping a suggestion button) — they are opt-in by nature, and no free-form chat input is ever sent.</li>
+    <li><b>Consent:</b> You choose whether to connect Health Connect and which read permissions to grant. Imported steps, exercise sessions, calories burned and weight can become diary/weight entries; signed-in cloud sync can upload those entries. Disconnecting stops future imports but does not remove existing imported copies. Revoke Android permissions in Health Connect and delete copied entries or request account deletion separately.</li>
+    <li><b>Consent (AI features):</b> Payment alone is not consent to processing health information. Photo scanning and recipe generation run when requested; eligible progress observations can be requested automatically when the Progress screen opens. These features use the data described in section 2. No free-form chat is offered.</li>
   </ul>
 
   <h2>4. How We Store Your Data</h2>
-  <p>Data for signed-in users is stored using Supabase, a cloud database service. Some of our other processors — including RevenueCat (subscriptions) and Sentry (crash reporting) — are also based outside the UK/EEA, typically in the United States. Where data is transferred outside the UK, we rely on appropriate safeguards (including Standard Contractual Clauses) to ensure your data remains protected to UK GDPR standards.</p>
-  <p>We retain your cloud account data for as long as your account is active. If you request account deletion, your account enters a 7-day cooling-off period during which you can cancel the request and restore full access from Settings. After the cooling-off period ends, a scheduled deletion process permanently removes your account and associated cloud data.</p>
-  <p>If you have not signed in or synced any data for 12 consecutive months, your account and its associated cloud data will be automatically and permanently deleted, in line with data minimisation principles under UK GDPR. This applies only to cloud accounts (signed in via Google) — data kept locally on your device as a guest is unaffected and stays under your control until you delete the App.</p>
+  <p>The app keeps a local copy of your profile, diary and lists for offline use. Signing in with Google enables cloud account storage and sync through Supabase. Supabase also hosts a separate food-intelligence database. Server requests use HTTPS; this is transport encryption, not end-to-end encryption of your cloud account data.</p>
+  <p>Our providers may process data outside the UK, including in the United States. Provider handling depends on the service and its applicable terms. Contact caloriekitchen@gmail.com for information about the processors and transfer safeguards applicable to your data.</p>
+  <p>An in-app account deletion request starts a 7-day cooling-off period. You can cancel the request while it is pending. After that period, scheduled cleanup attempts to delete your account and associated cloud entries, AI cache and usage records, and unlink linked food-intelligence observations. Ownership verification or cleanup failures can delay completion; contact us if your request remains pending. Historical subscription identifiers require verified reconciliation before erasure.</p>
+  <p>Accounts without a sign-in or synced update for 12 consecutive months are eligible for scheduled deletion using the same cleanup safeguards. Guest diary data remains local until you clear it, clear app storage or uninstall. The separate server device first-seen record can outlast a guest reinstall; contact us about that record.</p>
+  <p>AI results are cached to avoid repeated generation. Cache entries older than 30 days are pruned when that account makes an insight request; this is not a guarantee of deletion at exactly 30 days. Food-recognition observations can remain after their person link is removed. Store billing records and provider security/diagnostic records may follow their providers’ retention rules or legal obligations.</p>
 
   <h2>5. Who We Share Your Data With</h2>
-  <p>We do not sell your personal data to anyone. We use a small number of trusted companies to help us run the App, split below into processors (who only handle data on our instructions and have no independent use for it) and third parties (who also use data for their own stated purposes).</p>
-  <p><b>Processors — handle data only on our instructions:</b></p>
+  <p>We do not sell your diary or profile data. The following services help operate CalorieKitchen or handle information under their own applicable policies.</p>
+  <p><b>Services used to operate the app:</b></p>
   <ul>
     <li><b>Supabase:</b> Hosts our database; stores your account, profile, diary, and other in-app data you create on our behalf.</li>
-    <li><b>RevenueCat:</b> Manages subscription and purchase status; receives your purchase history and an anonymous app user ID.</li>
-    <li><b>Sentry:</b> Receives crash and error reports (e.g. stack traces, device and OS information) to help us find and fix bugs. It does not receive your diary, profile, or photo data.</li>
-    <li><b>AI service provider:</b> If you use an AI premium feature, an established third-party AI service, based in the United States, processes your meal/fridge photos and AI insight context as described in section 2. Photos are processed transiently and not stored.</li>
+    <li><b>RevenueCat:</b> Manages subscription and purchase status using your Supabase account UUID, store purchase history and entitlements. Google sign-in in CalorieKitchen is required; the Google Play account used for billing is a separate store account.</li>
+    <li><b>Sentry:</b> Receives crash/error reports, stack traces, device/OS details, performance measurements and automatic diagnostic breadcrumbs. We do not intentionally attach your diary, profile or photos to reports. Diagnostic context can include information contained in error messages and breadcrumbs.</li>
+    <li><b>AI service provider:</b> Google Gemini processes photos and aggregated insight context described in section 2. Its API terms govern provider processing and safety retention; see https://ai.google.dev/gemini-api/terms. CalorieKitchen does not persist uploaded photos in its backend database.</li>
   </ul>
   <p><b>Third parties — also use data for their own stated purposes:</b></p>
   <ul>
     <li><b>Google:</b> For authentication via Google Sign-In. Google's use of your data is governed by Google's Privacy Policy.</li>
-    <li><b>USDA FoodData Central:</b> If you use AI photo meal scanning (Silver/Gold), identified food names and an estimated portion are sent to this US government public nutrition database to look up calorie/macro values. No personal data is sent — only a food name and portion estimate.</li>
-    <li><b>Google AdMob:</b> The free version of the App may show ads from this network. It may collect device identifiers for ad personalisation. You can opt out via your device's ad settings or in-app ad preferences (Settings → Advertising). Subscribers with an active ad-free plan are not shown third-party ads.</li>
+    <li><b>USDA FoodData Central:</b> Meal scanning can send a recognised food name to this public nutrition service to look up calorie/macro values. We do not send your account UUID, full diary or photo to USDA.</li>
+    <li><b>Google AdMob:</b> Ads may involve IP addresses (including approximate-location inference), advertising/app identifiers, ad interactions and diagnostic information for advertising, analytics and fraud prevention. Where available, review consent in Settings → Advertising and use Android advertising-ID controls. Non-personalised ads do not necessarily mean no data collection. Active ad-free plans prevent third-party ad display; this does not guarantee no consent-SDK communication.</li>
   </ul>
   <p><b>Law enforcement or courts:</b></p>
   <p>We may disclose data where compelled by a valid court order, subpoena, or other legal process, or where necessary to protect the rights, property, or safety of us, our users, or the public.</p>
+  <ul>
+    <li><b>Open Food Facts and GitHub Pages:</b> Barcode lookup and external food images can contact Open Food Facts. Legal documents and catalogue updates can be retrieved from GitHub Pages. These providers receive ordinary web-request information such as IP address; a barcode lookup sends the product code, not your cloud diary.</li>
+  </ul>
 
   <h2>6. Cookies &amp; Local Storage</h2>
   <p>The App does not use browser cookies. It uses device-local storage (AsyncStorage and SQLite) to store your diary and profile data locally for offline access. This is necessary for the App to function.</p>
@@ -95,7 +106,8 @@
     <li><b>Right to restriction:</b> Ask us to restrict processing of your data in certain circumstances.</li>
     <li><b>Right to object:</b> Object to processing based on legitimate interests.</li>
   </ul>
-  <p>To exercise any of these rights, contact us at caloriekitchen@gmail.com. We will respond within 30 days.</p>
+  <p>To exercise your rights, contact caloriekitchen@gmail.com. We normally respond within one month; we may need proportionate identity verification and will explain any permitted extension. Never send passwords, verification codes or payment-card details.</p>
+  <p><a href="https://caloriekitchen-app.github.io/legal/delete-account.html">Request CalorieKitchen account and data deletion without reinstalling the app</a></p>
 
   <h2>8. California &amp; Other US State Privacy Rights</h2>
   <p>If you are a California resident, you may have rights under the California Consumer Privacy Act (CCPA), including the right to know what personal information we hold about you, to request its deletion or correction, and to opt out of the sale or sharing of personal information for cross-context behavioural advertising.</p>
@@ -105,7 +117,7 @@
   <p>The App is not directed at anyone under 16. We do not knowingly collect personal data from anyone under 16. If you believe a child has provided us with personal data, please contact us and we will delete it promptly.</p>
 
   <h2>10. Changes to This Policy</h2>
-  <p>We may update this Privacy Policy from time to time. When we do, we will update the effective date and notify you in-app. Your continued use of the App after the updated policy takes effect constitutes acceptance.</p>
+  <p>We update the version and effective date when this policy changes. The app asks you to review and accept the current Terms and Privacy Policy. Accepting a policy is not, by itself, explicit consent to optional processing of health data.</p>
 
   <h2>11. Complaints</h2>
   <p>If you have concerns about how we handle your data, please contact us first at caloriekitchen@gmail.com. You also have the right to lodge a complaint with the UK Information Commissioner's Office (ICO):</p>

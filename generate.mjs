@@ -1,6 +1,6 @@
 /**
- * Regenerates privacy-policy.html and terms.html from privacy.json and
- * terms.json — the source of truth for this repo. The CalorieKitchen app
+ * Regenerates privacy-policy.html, terms.html and delete-account.html from
+ * privacy.json, terms.json and deletion.json — the source of truth for this repo. The CalorieKitchen app
  * fetches the .json files directly (see src/lib/legalContent.ts in the app
  * repo); these .html files exist only so humans (and Play Console) have a
  * readable page to link to.
@@ -89,3 +89,7 @@ writeFileSync('privacy-policy.html', renderDocument(privacy));
 writeFileSync('terms.html', renderDocument(terms));
 
 console.log(`Generated privacy-policy.html (v${privacy.version}) and terms.html (v${terms.version})`);
+
+const deletion = JSON.parse(readFileSync('deletion.json', 'utf8'));
+writeFileSync('delete-account.html', renderDocument(deletion));
+console.log('Generated delete-account.html');

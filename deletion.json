@@ -1,0 +1,71 @@
+{
+  "title": "Delete your CalorieKitchen account and data",
+  "version": "1.0",
+  "effectiveDate": "7 October 2026",
+  "intro": "You can request deletion even if you no longer have CalorieKitchen installed. No purchase or reinstall is required.",
+  "sections": [
+    {
+      "title": "1. Request deletion by email",
+      "blocks": [
+        {
+          "type": "para",
+          "text": "Email caloriekitchen@gmail.com with the subject CalorieKitchen account deletion. Tell us the Google email used to sign in to CalorieKitchen. If possible, send from that address; if you cannot access it, explain that and we will discuss a proportionate ownership-verification route."
+        },
+        {
+          "type": "mailto",
+          "text": "Email a CalorieKitchen deletion request",
+          "email": "caloriekitchen@gmail.com?subject=CalorieKitchen%20account%20deletion"
+        },
+        {
+          "type": "para",
+          "text": "Do not send your password, Google verification codes, payment-card details, full medical records or RevenueCat ID as proof of ownership. We may ask for limited additional information to verify the account. We normally respond within one month and explain any permitted extension."
+        }
+      ]
+    },
+    {
+      "title": "2. What happens to your data",
+      "blocks": [
+        {
+          "type": "para",
+          "text": "Verified requests start the account cleanup process. In-app requests have a 7-day cooling-off period; email requests are confirmed with you before processing. Cleanup removes the account and associated cloud profile, diary, weight logs, lists and templates, along with linked AI cache/usage data. Linked food-intelligence observations are unlinked from the person; non-identifying observations may remain."
+        },
+        {
+          "type": "para",
+          "text": "Historical subscription links or a cleanup failure can require further verification and delay completion. We retain the request for follow-up rather than declaring the account deleted prematurely. Contact the same email if a request remains pending."
+        },
+        {
+          "type": "para",
+          "text": "We cannot remotely remove guest data or every offline copy already on your devices. Clear app storage or uninstall to remove those local copies. Deleting CalorieKitchen data does not erase records held by Health Connect, the original health app, Google Play or other providers under their own retention rules."
+        }
+      ]
+    },
+    {
+      "title": "3. Cancel subscriptions separately",
+      "blocks": [
+        {
+          "type": "para",
+          "text": "Deleting an app account or uninstalling does not cancel a Google Play subscription. Cancel renewal in Google Play → Payments & subscriptions → Subscriptions. You can still request deletion without an active subscription."
+        }
+      ]
+    },
+    {
+      "title": "4. In-app option and more information",
+      "blocks": [
+        {
+          "type": "para",
+          "text": "If you still have the app, Settings → Delete account & data offers an in-app request and a 7-day cancellation period."
+        },
+        {
+          "type": "link",
+          "text": "CalorieKitchen Privacy Policy",
+          "url": "privacy-policy.html"
+        },
+        {
+          "type": "link",
+          "text": "CalorieKitchen Terms & Conditions",
+          "url": "terms.html"
+        }
+      ]
+    }
+  ]
+}

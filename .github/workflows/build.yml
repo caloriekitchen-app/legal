@@ -6,6 +6,7 @@ on:
     paths:
       - 'privacy.json'
       - 'terms.json'
+      - 'deletion.json'
       - 'generate.mjs'
 
 permissions:
@@ -24,6 +25,6 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add privacy-policy.html terms.html
+          git add privacy-policy.html terms.html delete-account.html
           git diff --cached --quiet || git commit -m "Regenerate HTML from privacy.json/terms.json [skip ci]"
           git push

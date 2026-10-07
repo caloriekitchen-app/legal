@@ -1,106 +1,205 @@
 {
   "title": "Terms & Conditions",
   "version": "1.3",
-  "effectiveDate": "24 June 2026",
+  "effectiveDate": "7 October 2026",
   "intro": "Please read these Terms & Conditions (\"Terms\") carefully before using the CalorieKitchen mobile application (\"App\"). By creating an account or continuing as a guest you agree to be bound by these Terms. If you do not agree, do not use the App.",
   "sections": [
     {
       "title": "1. About the App",
       "blocks": [
-        { "type": "para", "text": "CalorieKitchen is a personal nutrition and calorie-tracking tool operated by an individual developer (\"we\", \"us\", \"our\"). The App helps users log meals, track macros, set calorie goals, and monitor progress. It is not a medical product and is not intended to diagnose, treat, cure, or prevent any disease or health condition." }
+        {
+          "type": "para",
+          "text": "CalorieKitchen is a personal nutrition and calorie-tracking tool operated by an individual developer (\"we\", \"us\", \"our\"). The App helps users log meals, track macros, set calorie goals, and monitor progress. It is not a medical product and is not intended to diagnose, treat, cure, or prevent any disease or health condition."
+        }
       ]
     },
     {
       "title": "2. Eligibility",
       "blocks": [
-        { "type": "para", "text": "You must be at least 16 years old to use CalorieKitchen. By using the App you confirm that you meet this requirement. If you are under 18, you should have the consent of a parent or legal guardian." }
+        {
+          "type": "para",
+          "text": "You must be at least 16 years old to use CalorieKitchen. By using the App you confirm that you meet this requirement. If you are under 18, you should have the consent of a parent or legal guardian."
+        }
       ]
     },
     {
       "title": "3. Guest Mode",
       "blocks": [
-        { "type": "para", "text": "You may use the App without creating an account (\"Guest Mode\"). When using Guest Mode:" },
-        { "type": "bullet", "text": "All data is stored only on your device. We do not receive or store it on our servers." },
-        { "type": "bullet", "text": "If you uninstall the App or clear its data, your guest data will be permanently lost. We cannot recover it." },
-        { "type": "bullet", "text": "You can link a Google account at any time to back up your data to the cloud." }
+        {
+          "type": "para",
+          "text": "You may use the App without creating an account (\"Guest Mode\"). When using Guest Mode:"
+        },
+        {
+          "type": "bullet",
+          "text": "Your guest profile, diary, weight and lists stay on your device and do not sync to a CalorieKitchen cloud account. Limited device, advertising and diagnostic information can still be transmitted as described in the Privacy Policy."
+        },
+        {
+          "type": "bullet",
+          "text": "If you uninstall the App or clear its data, your guest data will be permanently lost. We cannot recover it."
+        },
+        {
+          "type": "bullet",
+          "text": "You can link a Google account at any time to back up your data to the cloud."
+        },
+        {
+          "type": "bullet",
+          "text": "You must sign in with Google before purchasing or restoring a subscription. Guest mode does not provide an anonymous purchase route."
+        }
       ]
     },
     {
       "title": "4. Health & Nutrition Disclaimer",
       "blocks": [
-        { "type": "para", "text": "CalorieKitchen is a general-purpose tracking tool and is NOT a substitute for professional medical, dietetic, or nutritional advice. Always consult a qualified healthcare professional before making significant changes to your diet or exercise routine, especially if you have a medical condition or are pregnant." },
-        { "type": "para", "text": "Nutritional values displayed in the App are sourced from third-party databases and user-submitted data. We do not guarantee the accuracy, completeness, or suitability of any nutritional information. Use it as a guide only." }
+        {
+          "type": "para",
+          "text": "CalorieKitchen is a general-purpose tracking tool and is NOT a substitute for professional medical, dietetic, or nutritional advice. Always consult a qualified healthcare professional before making significant changes to your diet or exercise routine, especially if you have a medical condition or are pregnant."
+        },
+        {
+          "type": "para",
+          "text": "Nutritional values displayed in the App are sourced from third-party databases and user-submitted data. We do not guarantee the accuracy, completeness, or suitability of any nutritional information. Use it as a guide only."
+        }
       ]
     },
     {
       "title": "5. User Responsibilities",
       "blocks": [
-        { "type": "para", "text": "You agree to:" },
-        { "type": "bullet", "text": "Provide accurate information in your profile so your calorie targets are calculated correctly." },
-        { "type": "bullet", "text": "Not use the App for any unlawful purpose or in a way that could harm others." },
-        { "type": "bullet", "text": "Keep your Google account credentials secure. You are responsible for all activity under your account." },
-        { "type": "bullet", "text": "Not reverse-engineer, decompile, or tamper with the App." }
+        {
+          "type": "para",
+          "text": "You agree to:"
+        },
+        {
+          "type": "bullet",
+          "text": "Provide accurate information in your profile so your calorie targets are calculated correctly."
+        },
+        {
+          "type": "bullet",
+          "text": "Not use the App for any unlawful purpose or in a way that could harm others."
+        },
+        {
+          "type": "bullet",
+          "text": "Keep your Google account credentials secure. You are responsible for all activity under your account."
+        },
+        {
+          "type": "bullet",
+          "text": "Not reverse-engineer, decompile, or tamper with the App."
+        }
       ]
     },
     {
       "title": "6. Intellectual Property",
       "blocks": [
-        { "type": "para", "text": "All content, design, code, and materials in the App are the property of the developer and are protected by applicable intellectual property laws. You are granted a limited, non-exclusive, non-transferable licence to use the App for your personal, non-commercial use only." }
+        {
+          "type": "para",
+          "text": "All content, design, code, and materials in the App are the property of the developer and are protected by applicable intellectual property laws. You are granted a limited, non-exclusive, non-transferable licence to use the App for your personal, non-commercial use only."
+        }
       ]
     },
     {
       "title": "7. Advertisements & Premium",
       "blocks": [
-        { "type": "para", "text": "The free version of CalorieKitchen may display advertisements from third-party ad networks. Paid subscriptions remove advertisements and unlock additional features depending on the tier purchased (Bronze, Silver, or Gold). Subscription terms, including any free-trial period, are presented at the point of purchase through the Google Play Store and are subject to Google Play's billing policies." }
+        {
+          "type": "para",
+          "text": "The free app may display third-party ads. An active Ad-Free, Bronze, Silver or Gold subscription removes third-party ad display; additional features depend on the purchased tier. Prices, billing periods and any eligible introductory offer are shown by Google Play before purchase. Subscriptions renew unless cancelled under Google Play’s rules."
+        },
+        {
+          "type": "para",
+          "text": "Sign in with Google in CalorieKitchen before purchasing or restoring. RevenueCat uses your Supabase account UUID to associate entitlements with the app account. The Play account that pays can differ from the Google account signed into CalorieKitchen. Use Restore purchases after signing into the intended app account; store verification is required."
+        },
+        {
+          "type": "para",
+          "text": "Cancel renewal in Google Play’s Subscriptions settings. Signing out, uninstalling or deleting your CalorieKitchen account does not cancel a store subscription. Refund requests follow Google Play’s applicable process and your statutory rights."
+        }
       ]
     },
     {
       "title": "8. AI Premium Features",
       "blocks": [
-        { "type": "para", "text": "Silver and Gold subscriptions include AI photo scanning (meal photos and fridge photos). Bronze and Gold subscriptions include AI data insights (recipe suggestions from your fridge, and a weekly progress observation). Using these features means:" },
-        { "type": "bullet", "text": "A photo you take of a meal or your fridge is sent to our third-party AI service provider to identify the food or ingredients shown. We do not store these photos — they are processed and then discarded." },
-        { "type": "bullet", "text": "For meal photo scanning, identified food names are also sent to the USDA FoodData Central public database (a US government nutrition database) to look up calorie and macro information. No personal data is sent to USDA — only a food name and an estimated portion size." },
-        { "type": "bullet", "text": "For AI data insights, a compact summary of your own data (e.g. recent food names, daily calorie/protein totals, dietary preference, fridge contents) — never your full diary history or raw entries — is sent to our third-party AI service provider to generate suggestions or a short observation." },
-        { "type": "bullet", "text": "None of these features use free-form chat: you never type a prompt to the AI, and every response is a short, structured suggestion or observation, not a conversation." },
-        { "type": "para", "text": "These features are opt-in by nature — they only activate when you purchase the relevant subscription tier and actively use them (taking a photo, tapping a suggestion button)." }
+        {
+          "type": "para",
+          "text": "Silver and Gold subscriptions include AI photo scanning (meal photos and fridge photos). Bronze and Gold subscriptions include AI data insights (recipe suggestions from your fridge, and a weekly progress observation). Using these features means:"
+        },
+        {
+          "type": "bullet",
+          "text": "A requested meal/fridge scan sends the resized photo through our backend to Google Gemini. Our backend does not persist the photo. Google’s API terms can permit safety/abuse-monitoring retention; provider handling is explained in the Privacy Policy."
+        },
+        {
+          "type": "bullet",
+          "text": "For meal photo scanning, identified food names are also sent to the USDA FoodData Central public database (a US government nutrition database) to look up calorie and macro information. No personal data is sent to USDA — only a food name and an estimated portion size."
+        },
+        {
+          "type": "bullet",
+          "text": "Recipe generation sends fridge ingredients, dietary preference, goal and recent food-name trends. Eligible progress observations can be requested automatically when you open Progress, using aggregated calorie/protein, weight and exercise/step statistics. Local diary/fridge insight cards do not call a remote AI service."
+        },
+        {
+          "type": "bullet",
+          "text": "None of these features use free-form chat: you never type a prompt to the AI, and every response is a short, structured suggestion or observation, not a conversation."
+        },
+        {
+          "type": "para",
+          "text": "AI output is a suggestion, not verified nutritional or medical advice. Check identified foods, portions and allergens before relying on a result. Usage limits apply; purchasing a subscription is not consent to every optional health-data use."
+        }
       ]
     },
     {
       "title": "9. Limitation of Liability",
       "blocks": [
-        { "type": "para", "text": "To the fullest extent permitted by applicable law, we shall not be liable for any indirect, incidental, special, consequential, or punitive damages arising from your use of, or inability to use, the App — including but not limited to loss of data, health outcomes based on nutritional information, or loss of guest-mode data." },
-        { "type": "para", "text": "Our total liability to you for any claim arising out of or relating to these Terms or the App shall not exceed the amount you paid us in the 12 months preceding the claim." }
+        {
+          "type": "para",
+          "text": "To the fullest extent permitted by applicable law, we shall not be liable for any indirect, incidental, special, consequential, or punitive damages arising from your use of, or inability to use, the App — including but not limited to loss of data, health outcomes based on nutritional information, or loss of guest-mode data."
+        },
+        {
+          "type": "para",
+          "text": "Our total liability to you for any claim arising out of or relating to these Terms or the App shall not exceed the amount you paid us in the 12 months preceding the claim."
+        },
+        {
+          "type": "para",
+          "text": "Nothing in these Terms excludes or limits liability or consumer rights that cannot lawfully be excluded or limited, including liability for death or personal injury caused by negligence, fraud or fraudulent misrepresentation."
+        }
       ]
     },
     {
       "title": "10. Third-Party Services",
       "blocks": [
-        { "type": "para", "text": "The App uses third-party services including Google Sign-In, Supabase (cloud storage), RevenueCat (subscription management), Sentry (crash and error reporting), a third-party AI service provider, and the USDA FoodData Central public database (see section 8 for the AI features that use the latter two). Your use of these services is subject to their own terms and privacy policies. We are not responsible for the practices of these third parties." }
+        {
+          "type": "para",
+          "text": "The App uses Google Sign-In, Supabase, RevenueCat, Google Play, AdMob, Sentry, Google Gemini, USDA FoodData Central, Open Food Facts and GitHub Pages as described in the Privacy Policy. These services have their own applicable terms and privacy policies. Your statutory rights are unaffected."
+        }
       ]
     },
     {
-      "title": "11. Availability & Restricted Regions",
+      "title": "11. Changes to These Terms",
       "blocks": [
-        { "type": "para", "text": "The App is intended for users in the United Kingdom and other regions where it is made available via the Google Play Store. We do not knowingly make the App available to users in countries subject to comprehensive U.S. trade sanctions (currently Cuba, Iran, and North Korea), and we may restrict availability in regions where local law (such as data localisation requirements) prevents us from offering the App in compliance with that law. We reserve the right to restrict or discontinue access to the App in any region at our discretion." }
+        {
+          "type": "para",
+          "text": "We may update these Terms from time to time. When we do, we will update the effective date above and prompt you to review and re-accept the updated Terms within the App. Continued use after acceptance of the updated Terms constitutes agreement to the changes."
+        }
       ]
     },
     {
-      "title": "12. Changes to These Terms",
+      "title": "12. Governing Law",
       "blocks": [
-        { "type": "para", "text": "We may update these Terms from time to time. When we do, we will update the effective date above and prompt you to review and re-accept the updated Terms within the App. Continued use after acceptance of the updated Terms constitutes agreement to the changes." }
+        {
+          "type": "para",
+          "text": "These Terms are governed by and construed in accordance with the laws of England and Wales. Any disputes arising out of or in connection with these Terms shall be subject to the exclusive jurisdiction of the courts of England and Wales."
+        },
+        {
+          "type": "para",
+          "text": "This does not remove mandatory consumer protections or rights to bring proceedings available in your country of residence."
+        }
       ]
     },
     {
-      "title": "13. Governing Law",
+      "title": "13. Contact",
       "blocks": [
-        { "type": "para", "text": "These Terms are governed by and construed in accordance with the laws of England and Wales. Any disputes arising out of or in connection with these Terms shall be subject to the exclusive jurisdiction of the courts of England and Wales." }
-      ]
-    },
-    {
-      "title": "14. Contact",
-      "blocks": [
-        { "type": "para", "text": "If you have any questions about these Terms, please contact us at:" },
-        { "type": "para", "text": "caloriekitchen@gmail.com", "bold": true }
+        {
+          "type": "para",
+          "text": "If you have any questions about these Terms, please contact us at:"
+        },
+        {
+          "type": "para",
+          "text": "caloriekitchen@gmail.com",
+          "bold": true
+        }
       ]
     }
   ]
