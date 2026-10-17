@@ -1,7 +1,7 @@
 {
   "title": "Terms & Conditions",
-  "version": "1.4",
-  "effectiveDate": "7 October 2026",
+  "version": "1.5",
+  "effectiveDate": "17 October 2026",
   "intro": "Please read these Terms & Conditions (\"Terms\") carefully before using the CalorieKitchen mobile application (\"App\"). By creating an account or continuing as a guest you agree to be bound by these Terms. If you do not agree, do not use the App.",
   "sections": [
     {
@@ -197,7 +197,7 @@
         },
         {
           "type": "para",
-          "text": "caloriekitchen@gmail.com",
+          "text": "caloriekitchenapp@gmail.com",
           "bold": true
         }
       ]

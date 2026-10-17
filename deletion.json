@@ -1,7 +1,7 @@
 {
   "title": "Delete your CalorieKitchen account and data",
-  "version": "1.0",
-  "effectiveDate": "7 October 2026",
+  "version": "1.1",
+  "effectiveDate": "17 October 2026",
   "intro": "You can request deletion even if you no longer have CalorieKitchen installed. No purchase or reinstall is required.",
   "sections": [
     {
@@ -9,12 +9,12 @@
       "blocks": [
         {
           "type": "para",
-          "text": "Email caloriekitchen@gmail.com with the subject CalorieKitchen account deletion. Tell us the Google email used to sign in to CalorieKitchen. If possible, send from that address; if you cannot access it, explain that and we will discuss a proportionate ownership-verification route."
+          "text": "Email caloriekitchenapp@gmail.com with the subject CalorieKitchen account deletion. Tell us the Google email used to sign in to CalorieKitchen. If possible, send from that address; if you cannot access it, explain that and we will discuss a proportionate ownership-verification route."
         },
         {
           "type": "mailto",
           "text": "Email a CalorieKitchen deletion request",
-          "email": "caloriekitchen@gmail.com?subject=CalorieKitchen%20account%20deletion"
+          "email": "caloriekitchenapp@gmail.com?subject=CalorieKitchen%20account%20deletion"
         },
         {
           "type": "para",
